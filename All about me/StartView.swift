@@ -14,8 +14,27 @@ struct StartView: View {
         Divider()
         NavigationView(content: {
             VStack {
-                NavigationLink(destination: LiamView()) { Text("Liam") }
-                NavigationLink(destination: ContentView()) { Text("Oliver") }
+                NavigationLink(destination: LiamView()) {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 25)
+                            .foregroundColor(.blue)
+                            .brightness(0.2)
+                        Text("Liam")
+                            .foregroundColor(.black)
+                            .font(.custom("Baskerville", size: 50))
+                    }
+                }
+                NavigationLink(destination: ContentView()) {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 25)
+                            .foregroundColor(.blue)
+                            .brightness(0.1)
+                        Text("Oliver")
+                            .foregroundColor(.black)
+                            .font(.custom("Palatino", size: 50))
+                        
+                    }
+                }
             }
             .padding(20)
         })
