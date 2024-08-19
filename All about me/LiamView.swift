@@ -18,6 +18,11 @@ struct LiamView: View {
                 .font(.custom("Baskerville", size: 25))
             Text("Fun Fact: I Have 4 Siblings")
                 .font(.custom("Baskerville", size: 25))
+            Text("Two Truths and a Lie")
+                .font(.custom("Baskerville", size: 35))
+            Text("1) I've broken 2 bones. \n2)   \n3) I've gotten stitches")
+                .font(.custom("Baskerville", size: 30))
+            
 
             Spacer()
         }
