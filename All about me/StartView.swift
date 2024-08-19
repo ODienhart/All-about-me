@@ -9,7 +9,16 @@ import SwiftUI
 
 struct StartView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("All About Me")
+            .font(.custom("Al Nile", size: 30))
+        Divider()
+        NavigationView(content: {
+            VStack {
+                NavigationLink(destination: LiamView()) { Text("Liam") }
+                NavigationLink(destination: ContentView()) { Text("Oliver") }
+            }
+            .padding(20)
+        })
     }
 }
 

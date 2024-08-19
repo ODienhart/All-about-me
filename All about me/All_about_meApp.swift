@@ -11,7 +11,9 @@ import SwiftUI
 struct All_about_meApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VStack {
+                StartView()
+            }
         }
     }
 }

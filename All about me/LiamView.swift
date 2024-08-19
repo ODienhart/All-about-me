@@ -9,7 +9,19 @@ import SwiftUI
 
 struct LiamView: View {
     var body: some View {
-        Text("Liam")
+        VStack {
+            Text("Liam Seymour")
+                .font(.custom("Baskerville", size: 50))
+            Text("Year: Sophmore | 27")
+                .font(.custom("Baskerville", size: 25))
+            Text("Sport: Swimming")
+                .font(.custom("Baskerville", size: 25))
+            Text("Fun Fact: I Have 4 Siblings")
+                .font(.custom("Baskerville", size: 25))
+
+            Spacer()
+        }
+        .padding()
     }
 }
 

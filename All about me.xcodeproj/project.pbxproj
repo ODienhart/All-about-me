@@ -12,6 +12,7 @@
 		5A2B63822C6E45D800F957AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2B63812C6E45D800F957AC /* Assets.xcassets */; };
 		5A2B63852C6E45D800F957AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2B63842C6E45D800F957AC /* Preview Assets.xcassets */; };
 		C6F414922C7385DE007FC58C /* LiamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F414912C7385DE007FC58C /* LiamView.swift */; };
+		C6F414942C7389B4007FC58C /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F414932C7389B4007FC58C /* StartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		5A2B63812C6E45D800F957AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A2B63842C6E45D800F957AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C6F414912C7385DE007FC58C /* LiamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiamView.swift; sourceTree = "<group>"; };
+		C6F414932C7389B4007FC58C /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				5A2B637D2C6E45D700F957AC /* All_about_meApp.swift */,
+				C6F414932C7389B4007FC58C /* StartView.swift */,
 				5A2B637F2C6E45D700F957AC /* ContentView.swift */,
 				C6F414912C7385DE007FC58C /* LiamView.swift */,
 				5A2B63812C6E45D800F957AC /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 				5A2B63802C6E45D700F957AC /* ContentView.swift in Sources */,
 				5A2B637E2C6E45D700F957AC /* All_about_meApp.swift in Sources */,
 				C6F414922C7385DE007FC58C /* LiamView.swift in Sources */,
+				C6F414942C7389B4007FC58C /* StartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
