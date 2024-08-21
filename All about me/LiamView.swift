@@ -20,7 +20,7 @@ struct LiamView: View {
                 .font(.custom("Baskerville", size: 25))
             Text("Two Truths and a Lie")
                 .font(.custom("Baskerville", size: 35))
-            Text("1) \n2) \n3) ")
+            Text("1) I've broken 3 bones\n2) I've never left the country\n3) I've been in the ER three times")
                 .font(.custom("Baskerville", size: 30))
             
 
