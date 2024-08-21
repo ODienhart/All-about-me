@@ -11,6 +11,7 @@ struct StartView: View {
     var body: some View {
         Text("All About Me")
             .font(.custom("Al Nile", size: 30))
+        Text("Push Test")
         Divider()
         NavigationView(content: {
             VStack {
