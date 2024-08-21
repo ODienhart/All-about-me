@@ -11,15 +11,14 @@ struct StartView: View {
     var body: some View {
         Text("All About Me")
             .font(.custom("Al Nile", size: 30))
-        Text("Push Test4")
         Divider()
         NavigationView(content: {
             VStack {
                 NavigationLink(destination: LiamView()) {
                     ZStack {
                         RoundedRectangle(cornerRadius: 25)
-                            .foregroundColor(.blue)
-                            .brightness(0.2)
+                            .foregroundColor(.green)
+                            .brightness(-0.2)
                         Text("Liam")
                             .foregroundColor(.black)
                             .font(.custom("Baskerville", size: 50))
@@ -29,7 +28,7 @@ struct StartView: View {
                     ZStack {
                         RoundedRectangle(cornerRadius: 25)
                             .foregroundColor(.blue)
-                            .brightness(0.1)
+//                            .brightness(0.0)
                         Text("Oliver")
                             .foregroundColor(.black)
                             .font(.custom("Palatino", size: 50))

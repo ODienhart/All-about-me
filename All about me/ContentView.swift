@@ -15,7 +15,9 @@ struct ContentView: View {
                 .font(.custom("Palatino", size: 35))
             Text("1) I've broken 4 bones. \n2) I have been to 9 countries( i think i cant count)  \n3) I hate Watermelon")
                 .font(.custom("Palatino", size: 30))
+            Spacer()
             }
+        .padding()
         }
     }
 
