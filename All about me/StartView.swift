@@ -9,7 +9,7 @@ import SwiftUI
 
 struct StartView: View {
     var body: some View {
-        Text("All About Me")
+        Text("All About e")
             .font(.custom("Al Nile", size: 30))
         Divider()
         NavigationView(content: {
